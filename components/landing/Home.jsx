@@ -67,11 +67,11 @@ export default function Home({ content }) {
       <section className="testimonials">
         <h2>{content.guestReviews}</h2>
         <div className="review">
-          <p>"{content.review1}"</p>
+          <p>{content.review1}</p>
           <span>- John Doe</span>
         </div>
         <div className="review">
-          <p>"{content.review2}"</p>
+          <p>{content.review2}</p>
           <span>- Jane Smith</span>
         </div>
       </section>
